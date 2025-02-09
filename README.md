@@ -30,7 +30,7 @@ pip3 install -Ur requirements.txt
 3. Run the `convert-and-bootsplash.py` script:
 
 ```bash
-python3 convert-and-bootsplash splash.png remote_host username ssh_key_path
+python3 convert-and-bootsplash.py splash.png remote_host username ssh_key_path
 ```
 
 This will convert your image to the correct format and write it to the boot splash screen on the JetKVM device. It will also make a backup of the existing boot splash screen as `fb_init.old` if it didn't already exist.
