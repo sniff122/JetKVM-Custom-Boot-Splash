@@ -13,7 +13,7 @@ cat output.bin | ssh root@<ip> "cat > /dev/fb0"
 
 # Usage
 
-Note that the image must be 340x300 and 8 bit color depth. Additionally, the display is rotated 90 degrees, so the image should be rotated accordingly (90 degrees clockwise).
+Note that the image must be 240x300 and 8 bit color depth. Additionally, the display is rotated 90 degrees, so the image should be rotated accordingly (90 degrees clockwise).
 
 1. Install the required dependencies:
 
